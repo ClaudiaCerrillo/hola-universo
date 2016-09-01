@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper
+	namespace="com.fyg.cuadrillas.dao.resources.OperacionesCuadrillasDAO">
+	<insert id="insertaRegistroEmpleado" parameterType="empleado">
+		INSERT INTO empleado (nombre,domicilio,telefono) VALUES(#{nombre},#{domicilio},#{telefono})
+	</insert>
+	<update id="actualizaRegistroEmpleado" parameterType="empleado">
+		UPDATE FROM empleado SET
+		nombre = #{nombre},
+		domicilio = #{domicilio},
+		telefono = #{telefono}
+		WHERE id = #{id}
+	</update>
+</mapper>
