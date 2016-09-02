@@ -6,6 +6,10 @@ public class HolaMundo {
 		// TODO Auto-generated method stub
 		System.out.println("HOLA KATY");
 		System.out.println("Subelo al Git");
+		System.out.println("HOLA KATY");
+		System.out.println("Subelo al Git");
+		System.out.println("HOLA KATY");
+		System.out.println("Subelo al Git");
 
 	}
 
